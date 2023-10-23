@@ -1,0 +1,36 @@
+{
+  "ra": {
+    "type": "text",
+    "content": "Raaaaaul",
+    "tts": false
+  },
+  "raul": {
+    "type": "text",
+    "content": "RAAAAAAAAAAAAAAUUUUUUUL",
+    "tts": true
+  },
+  "hello @everyone": {
+    "type": "text",
+    "content": "Hello my Sunshine :sun_with_face:",
+    "tts": false
+  },
+  "game": {
+    "type": "image",
+    "content": "./src/img/Capturar.JPG",
+    "tts": false
+  },
+  "nrw": {
+    "type": "image",
+    "content": "./src/img/penetrating.jpg"
+  },
+  "funding": {
+    "type": "image",
+    "content": "./src/img/madman.png",
+    "tts": false
+  },
+  "tits": {
+    "type": "image",
+    "content": "./src/img/madman.png",
+    "tts": false
+  }
+}
