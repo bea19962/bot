@@ -4,11 +4,12 @@ module.exports = {
   data: new SlashCommandBuilder()
     .setName('showpic')
     .setDescription("Retrieves the user's image")
-    .addUserOption(option =>
-      option
-        .setName('user')
-        .setDescription('The user to show the avatar of')
-        .setRequired(false),
+    .addUserOption(
+      option =>
+        option
+          .setName('user')
+          .setDescription('The user to show the avatar of')
+          .setRequired(false), //optional to choose an user
     ),
   async execute(interaction) {
     const user = interaction.options.getUser('user') || interaction.user;
