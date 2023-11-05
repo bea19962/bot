@@ -16,7 +16,7 @@ module.exports = {
         params: {
           api_key: GIPHY_API_KEY,
           tag: 'cool',
-          rating: 'pg',
+          rating: 'r',
         },
       });
 
