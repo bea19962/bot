@@ -1,0 +1,17 @@
+// const puppeteer = require('puppeteer');
+
+// (async () => {
+//   const browser = await puppeteer.launch();
+
+//   const page = await browser.newPage();
+
+//   await page.goto('https://photomosh.com');
+//   const [fileChooser] = await Promise.all([
+//     page.waitForFileChooser(),
+//     page.click('#uploadButton'),
+//   ]);
+
+//   await fileChooser.accept(['/path/to/the/image.jpg']);
+//   await browser.close();
+// })
+// ();
