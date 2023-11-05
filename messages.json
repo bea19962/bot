@@ -16,7 +16,7 @@
   },
   "game": {
     "type": "image",
-    "content": "./src/img/Capturar.JPG",
+    "content": "./src/img/MOSHED-2023-11-5-20-39-31.gif",
     "tts": false
   },
   "nrw": {
@@ -25,12 +25,12 @@
   },
   "funding": {
     "type": "image",
-    "content": "./src/img/madman.png",
+    "content": "./src/img/MOSHED-2023-11-5-20-32-25.gif",
     "tts": false
   },
   "tits": {
     "type": "image",
-    "content": "./src/img/madman.png",
+    "content": "./src/img/MOSHED-2023-11-5-20-32-49.gif",
     "tts": false
   }
 }

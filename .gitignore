@@ -4,3 +4,6 @@ node_modules/
 #configs
 config.json
 .env
+
+#images
+src/img
