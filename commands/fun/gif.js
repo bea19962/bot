@@ -1,8 +1,9 @@
+require('dotenv').config();
 const axios = require('axios');
 const { SlashCommandBuilder } = require('discord.js');
 
-const GIPHY_API_URL = 'https://api.giphy.com/v1/gifs/random';
-const GIPHY_API_KEY = 't333mUFtGiFelxW8NBTwlW6VxCLDoR9e';
+const GIPHY_API_KEY = process.env.GIPHY_API_KEY;
+const GIPHY_API_URL = process.env.GIPHY_API_URL;
 
 module.exports = {
   data: new SlashCommandBuilder()
