@@ -33,7 +33,9 @@ client.on('ready', () => {
 
 client.on('messageCreate', message => {
   if (message.author.bot) return;
-  console.log('A new message was written', message);
+  console.log(
+    `Message from ${message.author.tag} in ${message.channel.name}: ${message.content}`,
+  );
   handleMessageResponse(message);
 });
 
