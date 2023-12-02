@@ -17,9 +17,9 @@ module.exports = {
         .addChoices(
           { name: 'AAAA', value: 'aaaa' },
           { name: 'Bird', value: 'bird' },
-          { name: 'Blue Lobster', value: 'blue lobster' },
+          { name: 'Blue Lobster', value: 'lobster blue' },
           { name: 'Bear', value: 'bear' },
-          { name: 'Capybara', value: 'Capybara' },
+          { name: 'Capybara', value: 'capybara' },
           { name: 'Crab', value: 'crab' },
           { name: 'Cool Crustacean', value: 'crustacean' },
           { name: 'Cute Cat', value: 'cat' },
