@@ -15,7 +15,7 @@ module.exports = {
       const response = await axios.get(GIPHY_API_URL, {
         params: {
           api_key: GIPHY_API_KEY,
-          tag: 'cool',
+          tag: 'bears',
           rating: 'r',
         },
       });
