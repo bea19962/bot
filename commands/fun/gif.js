@@ -8,15 +8,36 @@ const GIPHY_API_URL = process.env.GIPHY_API_URL;
 module.exports = {
   data: new SlashCommandBuilder()
     .setName('gif')
-    .setDescription('Get a random GIF from Giphy'),
+    .setDescription('Get a random GIF from Giphy')
+    .addStringOption(option =>
+      option
+        .setName('category')
+        .setDescription('The gif category')
+        .setRequired(true)
+        .addChoices(
+          { name: 'AAAA', value: 'aaaa' },
+          { name: 'Bird', value: 'bird' },
+          { name: 'Bear', value: 'bear' },
+          { name: 'Capybara', value: 'Capybara' },
+          { name: 'Crab', value: 'crab' },
+          { name: 'Cool Crustacean', value: 'crustacean' },
+          { name: 'Cute Cat', value: 'cat' },
+          { name: 'Cute Dog', value: 'dog' },
+          { name: 'Dank', value: 'dank memes' },
+          { name: 'Silly Goose', value: 'Animals goose' },
+        ),
+    ),
 
   async execute(interaction) {
+    const category = interaction.options.getString('category');
+    const rating = 'g';
+
     try {
       const response = await axios.get(GIPHY_API_URL, {
         params: {
           api_key: GIPHY_API_KEY,
-          tag: 'bears',
-          rating: 'r',
+          tag: category,
+          rating: rating,
         },
       });
 
