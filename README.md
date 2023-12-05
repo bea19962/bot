@@ -25,6 +25,7 @@ Before beginning the installation, ensure you have [Node.js](https://nodejs.org/
      ```sh
      npm install jimp
      ```
+     Here is the a very good [Jimp.js Guide](https://www.section.io/engineering-education/jimp-image-processing/) done by **Flavian Adhiambo**
 
 2. **Clone the Repository**:
    Clone the bot's repository to your local machine and have fun 💜
