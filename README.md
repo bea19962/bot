@@ -1,4 +1,4 @@
-# Silly Discord Bot 🌞🌞🌞
+# Discord Bot 👌🤖💻👍
 
 ## Description ✨
 
