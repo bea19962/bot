@@ -14,7 +14,8 @@
     "axios": "^1.5.1",
     "discord.js": "^14.13.0",
     "dotenv": "^16.3.1",
-    "jimp": "^0.22.10"
+    "jimp": "^0.22.10",
+    "sharp": "^0.33.0"
   },
   "devDependencies": {
     "eslint-config-prettier": "^9.0.0",
