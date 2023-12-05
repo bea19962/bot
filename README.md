@@ -32,6 +32,5 @@ Before beginning the installation, ensure you have [Node.js](https://nodejs.org/
 ---
 
 **Note**: I hope you enjoy playing with the silly Discord bot! 💜💜💜  Plis share your thoughts and suggestions on what could be improved. 
-                                      🌜🤝🌛
 
-                                 ✨✨✨✨✨✨
+                                                       🌜🤝🌛
